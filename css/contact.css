@@ -1,0 +1,138 @@
+body{
+    width:100%;
+    margin:0;
+   
+} 
+span{
+    color:rgb(156, 50, 50) ;
+}
+strong{
+background-color: rgb(228, 207, 179);
+padding: 5px;
+border-radius: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+    font-size: 20px;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:rgb(47, 107, 47);
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+     text-decoration: none;
+     color: black;
+  }
+ .btn3 span {
+ font-weight: bold;
+ color: black;
+ }
+ .btn3 span:hover {
+     font-size: 25px;
+     color: rgb(47, 107, 47);
+     }
+          
+    .btn2{
+        background-color: rgb(20, 13, 13);
+        border-style: none;
+        color:rgb(47, 107, 47);
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+      
+    }
+    .btn2:hover{
+        
+        background-color:rgb(47, 107, 47);
+        font-weight: bold;
+    }
+    .contact_info input{
+        width: 100%;
+        height: 30px;
+    }
+.contact_info label{
+    font-weight: bold;
+}
+.contact_info textarea{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    
+}
+h3{
+    text-align: center;
+    margin-bottom: 50px;
+    color:rgb(47, 107, 47)
+}
+h1{ 
+    color:rgb(47, 107, 47)
+
+}
+.row{
+    margin-bottom: 50px;
+}
+
+    .btn{
+        background-color:rgb(63, 22, 22);
+        color:white;
+        width:20%;
+        margin-bottom: 20px;
+        transition: transform 80ms ease-in;
+        
+         }
+         .btn:hover{
+            background-color:rgb(114, 53, 53);
+            color:white;
+            
+            
+             }
+             .btn:active {
+                transform: scale(0.95);
+              }
+             .btn:focus {
+                outline: none;
+              }  
+
+
+
+
+
+    .footer {
+        width:100%;
+        height:60px;
+        background-color:rgb(20, 13, 13);
+    }
+    .footer nav {
+        width:50%;
+        padding-top: 20px;
+        
+    }
+    .footer p {
+        font-weight: bold;
+        right: 350px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 18px;
+        color:white
+    }
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  form{
+      width: 140%;
+  }
+ }
+
+
+
